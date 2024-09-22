@@ -48,6 +48,9 @@ The Monty Hall problem is a classic example of how human decision-making often d
 ## **Results Visualization**
 The simulation results are displayed as a plot comparing the winning percentages for both strategies across different door configurations. The x-axis uses a logarithmic scale to better visualize the results for the varying number of doors.
 
+![Monty Hall Problem Results](monty_hall_problem.png)
+
+
 ## **Project Structure**
 - `monty_hall_problem.py`: The main script containing the Monty Hall simulation logic and visualization code.
 - `README.md`: Project documentation.
