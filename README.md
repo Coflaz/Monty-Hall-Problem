@@ -5,6 +5,7 @@ This project simulates the famous **Monty Hall Problem** using Python, demonstra
 ## **Table of Contents**
 - [Introduction](#introduction)
 - [Features](#features)
+- [Relation to Economic Behavioral Science](#relation-to-economic-behavioral-science)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results Visualization](#results-visualization)
@@ -19,6 +20,9 @@ The Monty Hall problem is a probability puzzle based on a game show scenario. In
 - Performs 100,000 iterations per scenario to ensure statistically significant results.
 - Compares win percentages for both "staying" and "switching" strategies.
 - Visualizes results using `matplotlib` to highlight the advantage of switching.
+
+## **Relation to Economic Behavioral Science**
+The Monty Hall problem is a classic example of how human decision-making often deviates from rational, probabilistic thinking, making it highly relevant to **behavioral economics**. It highlights common cognitive biases, such as the **confirmation bias** and **anchoring effect**, where individuals struggle to update their beliefs despite new information. The problem also demonstrates **risk aversion**, as many people prefer sticking with their original choice, even when switching statistically offers better odds. By examining the Monty Hall problem, we gain insights into how people often make irrational choices, an important concept in understanding economic behavior.
 
 ## **Installation**
 1. Ensure you have Python 3.x installed on your machine.
@@ -50,6 +54,9 @@ The simulation results are displayed as a plot comparing the winning percentages
 
 ## **License**
 This project is licensed under the MIT License.
+
+
+
 
 
 
