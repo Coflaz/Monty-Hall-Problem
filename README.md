@@ -1,11 +1,12 @@
 # **Monty Hall Problem Simulation**
 
-This project simulates the famous **Monty Hall Problem** using Python, demonstrating that switching doors is statistically the best strategy for winning. It runs 100,000 simulations for different door scenarios (3, 10, and 10,000 doors) to analyze the winning probabilities when the contestant either stays with their initial choice or switches.
+This Python project offers a deep dive into the famous **Monty Hall Problem**, providing a statistical simulation that's ideal for **statisticians**, **mathematicians**, **behavioral economists**, or any **curious individuals** interested in understanding this classic probability puzzle. The code is designed to be adaptable, so feel free to **copy, test, modify**, and explore how this paradox can support your theories and implications in various domains.
 
 ## **Table of Contents**
 - [Introduction](#introduction)
 - [Features](#features)
-- [Relation to Economic Behavioral Science](#relation-to-economic-behavioral-science)
+- [The Brilliance of Marilyn vos Savant](#the-brilliance-of-marilyn-vos-savant)
+- [Relation to Behavioral Economics](#relation-to-behavioral-economics)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results Visualization](#results-visualization)
@@ -13,26 +14,39 @@ This project simulates the famous **Monty Hall Problem** using Python, demonstra
 - [License](#license)
 
 ## **Introduction**
-The Monty Hall problem is a probability puzzle based on a game show scenario. In this simulation, we test the strategy of "staying" vs. "switching" choices to statistically verify which yields a better chance of winning. The results are plotted to show that switching is the optimal choice.
+The Monty Hall problem is a probability puzzle rooted in a game show scenario. This simulation uses Python to test the strategy of "staying" vs. "switching" choices, statistically verifying which yields a better chance of winning. By running simulations across multiple door scenarios (3, 10, and 10,000 doors), the project demonstrates the statistically optimal choice: **switching**.
 
 ## **Features**
-- Simulates the Monty Hall problem for scenarios with 3, 10, and 10,000 doors.
-- Performs 100,000 iterations per scenario to ensure statistically significant results.
+- Simulates the Monty Hall problem for different scenarios (3, 10, and 10,000 doors).
+- Conducts 100,000 iterations per scenario for robust statistical significance.
 - Compares win percentages for both "staying" and "switching" strategies.
-- Visualizes results using `matplotlib` to highlight the advantage of switching.
+- Provides clear visualizations using `matplotlib` to highlight the advantage of switching.
 
-## **Relation to Economic Behavioral Science**
-The Monty Hall problem is a classic example of how human decision-making often deviates from rational, probabilistic thinking, making it highly relevant to **behavioral economics**. It highlights common cognitive biases, such as the **confirmation bias** and **anchoring effect**, where individuals struggle to update their beliefs despite new information. The problem also demonstrates **risk aversion**, as many people prefer sticking with their original choice, even when switching statistically offers better odds. By examining the Monty Hall problem, we gain insights into how people often make irrational choices, an important concept in understanding economic behavior.
+## **The Brilliance of Marilyn vos Savant**
+In 1990, **Marilyn vos Savant**, famed for having one of the world's highest recorded IQs, answered a reader’s query on the Monty Hall Problem in her “Ask Marilyn” column. She argued that **switching doors gives a 2/3 chance of winning**, compared to a 1/3 chance for staying with the initial choice (Crockett, 2015). This sparked a massive backlash, with over **10,000 letters**, many from academics and Ph.D. holders, arguing that her solution was incorrect (Crockett, 2015). 
+
+One letter stated, *“There is enough mathematical illiteracy in this country, and we don’t need the world’s highest IQ propagating more”* (Crockett, 2015). However, vos Savant was ultimately proven right, demonstrating how even experts can overlook the subtleties of probability. Her explanation not only illuminated the correct solution but also challenged the assumptions of intellectual authority, leading to broader discussions in mathematics and economics.
+
+**Citation:** 
+Crockett, Z. (2015). The Time Everyone “Corrected” the World’s Smartest Woman. *Priceonomics*. Retrieved from [Priceonomics](https://priceonomics.com/the-time-everyone-corrected-the-worlds-smartest/)
+
+## **Relation to Behavioral Economics**
+The Monty Hall problem is more than just a mathematical curiosity; it serves as a crucial example in **behavioral economics**. The problem highlights how **cognitive biases**—such as the tendency to **stick with an initial decision (anchoring effect)** and the **misperception of probabilities**—can influence human behavior. Research has shown that most people fail to switch, even when it's the optimal choice, underscoring how individuals often struggle with probability-based decisions (Saenen et al., 2018).
+
+Understanding the Monty Hall problem helps economists and psychologists gain insights into **decision-making processes**, risk assessment, and how individuals respond to uncertainty, making it a valuable tool in studying economic behavior.
+
+**Citation:**
+Saenen, L., Heyvaert, M., Van Dooren, W., Schaeken, W., & Onghena, P. (2018). Why Humans Fail in Solving the Monty Hall Dilemma: A Systematic Review. *Psychologica Belgica*, 58(1), 128–158. https://doi.org/10.5334/pb.274
 
 ## **Installation**
-1. Ensure you have Python 3.x installed on your machine.
-2. Install the required libraries using:
+1. Ensure Python 3.x is installed.
+2. Install the required libraries:
    ```bash
    pip install numpy pandas matplotlib
    ```
 
 ## **Usage**
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/monty-hall-simulation.git
    ```
@@ -45,19 +59,18 @@ The Monty Hall problem is a classic example of how human decision-making often d
    python monty_hall_problem.py
    ```
 
-## Results Visualization
-The plot below shows the winning percentages for both strategies ("Stay" vs "Switch") across different numbers of doors in the Monty Hall problem simulation. As you can see, the "Switch" strategy consistently yields a higher winning percentage compared to "Stay," demonstrating that switching is the optimal strategy.
+## **Results Visualization**
+The plot below illustrates the winning percentages for both "Stay" and "Switch" strategies across different numbers of doors. As shown, the "Switch" strategy consistently yields a higher winning percentage, confirming it as the optimal approach.
 
 ![Monty Hall Problem Results](https://github.com/user-attachments/assets/103c8d0e-f23d-4f4e-9bbc-314d94049b75)
 
-
-
 ## **Project Structure**
-- `monty_hall_problem.py`: The main script containing the Monty Hall simulation logic and visualization code.
-- `README.md`: Project documentation.
+- `monty_hall_problem.py`: Main script containing the simulation and visualization logic.
+- `README.md`: Documentation.
 
 ## **License**
 This project is licensed under the MIT License.
+
 
 
 
