@@ -45,10 +45,11 @@ The Monty Hall problem is a classic example of how human decision-making often d
    python monty_hall_problem.py
    ```
 
-## **Results Visualization**
-The simulation results are displayed as a plot comparing the winning percentages for both strategies across different door configurations. The x-axis uses a logarithmic scale to better visualize the results for the varying number of doors.
+## Results Visualization
+The plot below shows the winning percentages for both strategies ("Stay" vs "Switch") across different numbers of doors in the Monty Hall problem simulation. As you can see, the "Switch" strategy consistently yields a higher winning percentage compared to "Stay," demonstrating that switching is the optimal strategy.
 
-![Monty Hall Problem Results](monty_hall_problem.png)
+![Monty Hall Problem Results](https://github.com/user-attachments/assets/103c8d0e-f23d-4f4e-9bbc-314d94049b75)
+
 
 
 ## **Project Structure**
